@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4e4ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 2rem;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    min-height: 75vh;
+    width: 55vh;
+    border-radius: 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+#screen {
+    margin: 7rem 2rem 1rem 0;
+    text-align: end;
+    font-size: 3rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.part {
+    display: flex;
+}
+
+.btn {
+    width: 25%;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    background-color: #333333;
+    margin: 0.1rem;
+    padding: 1rem;
+} 
+
+.operator {
+    background-color: #fcba03;
+}
+
+.row1 {
+    background-color: #777777;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
